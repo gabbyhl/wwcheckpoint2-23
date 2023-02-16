@@ -1,0 +1,126 @@
+
+
+
+body{
+    padding: 50px;
+    background-color: rgb(215, 237, 250);
+    font-size: 100%;
+
+
+}
+
+header{
+    margin: 30px;
+}
+h1{
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+}
+h2{
+    font-size: 150%;
+}
+
+h3{
+    font-size: 125%;
+    font-style: italic;
+}
+
+nav{
+    margin: 10px;
+    font-size: 125%;
+    text-align: left;
+}
+a:link{
+    color:blue;
+}
+
+a:visited {
+    color:rgb(70, 32, 70);
+}
+
+nav ul li{
+    padding: 15px;
+    display: inline;
+    margin: 25px;
+}
+
+nav a:link {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+
+nav a:active{
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    border: 5px solid  rgb(70, 32, 70);
+
+}
+
+nav a:visited {
+    color: black;
+}
+
+
+nav a:hover{
+    color: white;
+    background-color: rgb(70, 32, 70);
+    padding: 15px
+}
+
+nav a.current{
+    border: 5px solid black;
+}
+
+
+a.skip{
+    padding: 5px;
+}
+
+
+main div:nth-child(odd) img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 20%;
+    border: 5px dotted rgb(70, 32, 70);
+    border-radius: 100%;
+}
+
+main div:nth-child(even) img{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 20%;
+    border: 5px dashed rgb(70, 32, 70);
+    border-radius: 100%;
+}
+main img.important{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 90%;
+    border: 5px solid white;
+    border-radius: 0%;
+
+}
+
+main img:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+p{
+    margin: 10px 0px 10px 0px
+}
